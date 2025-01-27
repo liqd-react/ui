@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Output ECMAScript 5 for compatibility
+    "module": "esnext", // Use ES Modules
+    "strict": true, // Enable all strict type-checking options
+    "esModuleInterop": true, // Enable interoperability between CommonJS and ES modules
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "jsx": "react-jsx", // Use React JSX syntax
+    "moduleResolution": "node", // Resolve modules in node_modules
+    "outDir": "./dist", // Output directory for compiled files
+    "allowJs": true, // Allow JavaScript files
+    "declaration": true, // Generate .d.ts files
+    "declarationDir": "./dist/types", // Output directory for type declarations
+    "emitDeclarationOnly": false // Emit both JS and type declarations
+  },
+  "include": ["src/**/*"] // Include all source files
+}
